@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface CarRepository {
-    public CarEntity createCar(CarEntity carEntity);
+    CarEntity createCar(CarEntity carEntity);
     Optional<CarEntity> getCarById(Long id);
 
     List<CarEntity> getAllCars();

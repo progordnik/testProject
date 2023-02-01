@@ -25,11 +25,4 @@ public class DriverEntity {
         this.login = login;
         this.password = password;
     }
-    public DriverEntity(String name, String licenseNumber, String login, String password, List<CarEntity> carEntityList) {
-        this.name = name;
-        this.licenseNumber = licenseNumber;
-        this.login = login;
-        this.password = password;
-        this.carEntityList = carEntityList;
-    }
 }

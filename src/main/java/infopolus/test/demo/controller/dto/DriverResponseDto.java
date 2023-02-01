@@ -1,6 +1,5 @@
 package infopolus.test.demo.controller.dto;
 
-import infopolus.test.demo.repository.entity.CarEntity;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;

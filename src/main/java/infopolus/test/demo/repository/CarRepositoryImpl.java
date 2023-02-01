@@ -21,10 +21,6 @@ public class CarRepositoryImpl implements CarRepository {
     private static final Logger logger = LogManager.getLogger();
     private final DataSource dataSource;
 
-    private List<CarEntity> carEntityList = new ArrayList<>();
-
-
-
     @Autowired
     public CarRepositoryImpl(DataSource dataSource) {
         this.dataSource = dataSource;
